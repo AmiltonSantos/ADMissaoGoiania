@@ -43,6 +43,10 @@ const routes: Routes = [
     path: 'noticia',
     loadChildren: () => import('./noticia/noticia.module').then( m => m.NoticiaPageModule)
   },
+  {
+    path: 'harpa',
+    loadChildren: () => import('./harpa/harpa.module').then( m => m.HarpaPageModule)
+  },
 ];
 
 @NgModule({
