@@ -6,12 +6,12 @@
 
 <ion-content [fullscreen]="true" style="--background: #18181a !important;">
   <ion-row>
-    <ion-col>
+    <ion-col (click)="touchNavParam('/biblia')">
       <ion-card class="ion-no-padding">
         <ion-img src="assets/images/biblia.png"></ion-img>
       </ion-card>
     </ion-col>
-    <ion-col>
+    <ion-col (click)="touchNavParam('/devocional')">
       <ion-card class="ion-no-padding">
         <ion-img src="assets/images/devocional.png"></ion-img>
       </ion-card>
@@ -19,12 +19,12 @@
   </ion-row>
 
   <ion-row>
-    <ion-col>
+    <ion-col (click)="touchNavParam('/versiculo')">
       <ion-card class="ion-no-padding">
         <ion-img src="assets/images/versiculo.png"></ion-img>
       </ion-card>
     </ion-col>
-    <ion-col>
+    <ion-col (click)="touchNavParam('/noticia')">
       <ion-card class="ion-no-padding">
         <ion-img src="assets/images/noticias.png"></ion-img>
       </ion-card>
@@ -60,12 +60,12 @@
   <ion-row>
     <ion-col>
       <ion-card class="ion-no-padding">
-        <ion-img src="assets/images/biblia.png"></ion-img>
+        <ion-img src="assets/images/contribuicao.png"></ion-img>
       </ion-card>
     </ion-col>
     <ion-col>
       <ion-card class="ion-no-padding">
-        <ion-img src="assets/images/devocional.png"></ion-img>
+        <ion-img src="assets/images/missoes.png"></ion-img>
       </ion-card>
     </ion-col>
   </ion-row>
