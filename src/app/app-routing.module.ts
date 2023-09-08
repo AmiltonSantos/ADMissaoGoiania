@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
   },
   {
     path: '',
@@ -13,39 +13,39 @@ const routes: Routes = [
   },
   {
     path: 'biblia',
-    loadChildren: () => import('./biblia/biblia.module').then( m => m.BibliaPageModule)
+    loadChildren: () => import('./pages/biblia/biblia.module').then( m => m.BibliaPageModule)
   },
   {
     path: 'devocional',
-    loadChildren: () => import('./devocional/devocional.module').then( m => m.DevocionalPageModule)
+    loadChildren: () => import('./pages/devocional/devocional.module').then( m => m.DevocionalPageModule)
   },
   {
     path: 'congregacoes',
-    loadChildren: () => import('./congregacoes/congregacoes.module').then( m => m.CongregacoesPageModule)
+    loadChildren: () => import('./pages/congregacoes/congregacoes.module').then( m => m.CongregacoesPageModule)
   },
   {
     path: 'versiculo',
-    loadChildren: () => import('./versiculo/versiculo.module').then( m => m.VersiculoPageModule)
+    loadChildren: () => import('./pages/versiculo/versiculo.module').then( m => m.VersiculoPageModule)
   },
   {
     path: 'estudos',
-    loadChildren: () => import('./estudos/estudos.module').then( m => m.EstudosPageModule)
+    loadChildren: () => import('./pages/estudos/estudos.module').then( m => m.EstudosPageModule)
   },
   {
     path: 'curso',
-    loadChildren: () => import('./curso/curso.module').then( m => m.CursoPageModule)
+    loadChildren: () => import('./pages/curso/curso.module').then( m => m.CursoPageModule)
   },
   {
     path: 'contribuicao',
-    loadChildren: () => import('./contribuicao/contribuicao.module').then( m => m.ContribuicaoPageModule)
+    loadChildren: () => import('./pages/contribuicao/contribuicao.module').then( m => m.ContribuicaoPageModule)
   },
   {
     path: 'noticia',
-    loadChildren: () => import('./noticia/noticia.module').then( m => m.NoticiaPageModule)
+    loadChildren: () => import('./pages/noticia/noticia.module').then( m => m.NoticiaPageModule)
   },
   {
     path: 'harpa',
-    loadChildren: () => import('./harpa/harpa.module').then( m => m.HarpaPageModule)
+    loadChildren: () => import('./pages/harpa/harpa.module').then( m => m.HarpaPageModule)
   },
 ];
 
