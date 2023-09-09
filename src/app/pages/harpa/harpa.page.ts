@@ -8,13 +8,14 @@ import { ConnectHarpaService } from 'src/app/services/connect-harpa.service';
 })
 export class HarpaPage implements OnInit {
 
+    public dadosHarpaCrista: { id: number, titulo: string }[] = [];
+
     constructor(private connectHarpaService: ConnectHarpaService) { }
 
     async ngOnInit() {
         await this.connectHarpaService.loadData()
             .then((data) => {
-                // Use os dados carregados aqui
-                console.log(data); // Exemplo: exibindo os dados no console
+                this.dadosHarpaCrista = data;
             })
             .catch((error) => {
                 console.error('Erro ao carregar os dados:', error);

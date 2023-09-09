@@ -18,4 +18,18 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+  <ion-list style="padding-top: 0px; padding-bottom: 0px;">
+    <div *ngFor="let item of dadosBiblia">
+      <ion-item lines="full">
+        <ion-buttons slot="start" class="styleBtn">
+          <ion-button>
+            <ion-label style="color: white;">{{item.abbrev}}</ion-label>
+          </ion-button>
+        </ion-buttons>
+        <span>
+          <ion-label style="font-size: 20px;">{{item.name}}</ion-label>
+        </span>
+      </ion-item>
+    </div>
+  </ion-list>
 </ion-content>
