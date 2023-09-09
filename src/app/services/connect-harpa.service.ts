@@ -1,9 +1,15 @@
 import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class ConnectHarpaService {
 
-  constructor() { }
+    constructor(private http: HttpClient) { }
+
+    loadData(): Promise<any> {
+        const url = 'assets/data/harpa.json'; // Caminho relativo ao arquivo JSON
+        return this.http.get(url).toPromise();
+    }
 }
