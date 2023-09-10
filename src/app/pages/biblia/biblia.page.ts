@@ -8,7 +8,7 @@ import { ConnectBibliaService } from 'src/app/services/connect-biblia.service';
 })
 export class BibliaPage implements OnInit {
 
-    dadosBiblia: { abbrev: string, name: string }[] = [];
+    public dadosBiblia: { abbrev: string, name: string, chapters: []}[] = [];
 
     constructor(private connectBibliaService: ConnectBibliaService) {
     }
