@@ -11,10 +11,11 @@
         <ion-img src="assets/images/biblia.png"></ion-img>
       </ion-card>
     </ion-col>
-    <ion-col (click)="touchNavParam('/harpa')">
+    <ion-col (click)="touchNavParam('/harpa')" id="open-loading">
       <ion-card class="ion-no-padding">
         <ion-img src="assets/images/harpa.png"></ion-img>
       </ion-card>
+      <ion-loading trigger="open-loading" message="Carregando..." [duration]="1000" spinner="circles"></ion-loading>
     </ion-col>
   </ion-row>
 
