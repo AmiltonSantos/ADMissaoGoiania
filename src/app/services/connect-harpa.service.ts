@@ -9,7 +9,7 @@ export class ConnectHarpaService {
     constructor(private http: HttpClient) { }
 
     loadData(): Promise<any> {
-        const url = 'assets/data/harpa.json'; // Caminho relativo ao arquivo JSON
+        const url = 'assets/data/harpa/harpa.json'; // Caminho relativo ao arquivo JSON
         return this.http.get(url).toPromise();
     }
 }

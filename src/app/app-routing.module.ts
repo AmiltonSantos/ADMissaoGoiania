@@ -47,6 +47,10 @@ const routes: Routes = [
     path: 'harpa',
     loadChildren: () => import('./pages/harpa/harpa.module').then( m => m.HarpaPageModule)
   },
+  {
+    path: 'site',
+    loadChildren: () => import('./pages/site/site.module').then( m => m.SitePageModule)
+  },
 ];
 
 @NgModule({
