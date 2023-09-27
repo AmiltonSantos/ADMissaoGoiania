@@ -11,11 +11,10 @@
         <ion-img src="assets/images/biblia.png"></ion-img>
       </ion-card>
     </ion-col>
-    <ion-col (click)="touchNavParam('/harpa')" id="open-loading">
+    <ion-col (click)="touchNavParam('/harpa')">
       <ion-card class="ion-no-padding">
         <ion-img src="assets/images/harpa.png"></ion-img>
       </ion-card>
-      <ion-loading trigger="open-loading" message="Carregando..." [duration]="1000" spinner="circles"></ion-loading>
     </ion-col>
   </ion-row>
 
@@ -77,7 +76,7 @@
         <ion-img src="assets/images/devocional.png"></ion-img>
       </ion-card>
     </ion-col>
-    <ion-col (click)="touchNavParam('/site')">
+    <ion-col (click)="openExternal('https://admissaojardimamerica.com.br/')"> <!-- (click)="touchNavParam('/site')" -->
       <ion-card class="ion-no-padding">
         <ion-img src="assets/images/site.png"></ion-img>
       </ion-card>

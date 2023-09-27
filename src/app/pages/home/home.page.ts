@@ -18,4 +18,9 @@ export class HomePage {
     public async touchNavParam(param?: any) {
         await this.navCtrl.navigateForward(param);
     }
+
+    public openExternal(link: any) {
+        window.open(link, '_system', 'location=yes'); 
+        return false;
+     }
 }

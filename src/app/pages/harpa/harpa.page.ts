@@ -23,6 +23,7 @@ export class HarpaPage implements OnInit {
         const loading = await this.loadingCtrl.create({
             message: 'Carregando...',
             duration: 100000,
+            spinner: 'circles'
         });
 
         loading.present();
