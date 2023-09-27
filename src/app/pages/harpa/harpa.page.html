@@ -10,12 +10,15 @@
       <ion-button>
         <ion-icon slot="icon-only" name="share-social"></ion-icon>
       </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="search-outline"></ion-icon>
+      </ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-list *ngFor="let item of dadosHarpaCrista" style="padding-top: 0px; padding-bottom: 0px;">
+  <ion-list *ngFor="let item of listaHapa" style="padding-top: 0px; padding-bottom: 0px;">
     <ion-item lines="full" (click)="detalharHinos(item.titulo, item.musica)">
       <ion-buttons slot="start" class="styleBtn">
         <ion-button>
@@ -27,4 +30,10 @@
       </ion-label>
     </ion-item>
   </ion-list>
+
+  <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData($event)" [disabled]="desabilitandoLoad">
+    <ion-infinite-scroll-content loadingSpinner="crescent">
+
+    </ion-infinite-scroll-content>
+</ion-infinite-scroll>
 </ion-content>

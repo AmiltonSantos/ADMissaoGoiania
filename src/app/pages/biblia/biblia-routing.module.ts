@@ -7,6 +7,10 @@ const routes: Routes = [
   {
     path: '',
     component: BibliaPage
+  },
+  {
+    path: 'livros',
+    loadChildren: () => import('./livros/livros.module').then( m => m.LivrosPageModule)
   }
 ];
 

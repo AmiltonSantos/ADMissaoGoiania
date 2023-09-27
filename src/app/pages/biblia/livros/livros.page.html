@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="touchVoltarModal()" style="width: 60px; height: 60px;">
+        <ion-icon style="height: 25px; margin-left: 8px !important;" slot="icon-only" name="arrow-back-outline">
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>
+      {{livro.name}}
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="share-social"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div style="font-size: 15px; padding-top: 10px; padding-bottom: 10px;" *ngFor="let li of livro.chapters">
+    <div class="custom-text">
+      <strong>{{li}}</strong>
+    </div>
+  </div>
+</ion-content>

@@ -15,7 +15,6 @@ export class HinosPage implements OnInit {
     }
 
     ngOnInit() {
-        console.log(this.musica);
     }
 
     async touchVoltarModal() {

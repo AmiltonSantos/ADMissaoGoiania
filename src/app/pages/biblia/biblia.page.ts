@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { LoadingController, ModalController } from '@ionic/angular';
 import { ConnectBibliaService } from 'src/app/services/connect-biblia.service';
+import { LivrosPage } from './livros/livros.page';
 
 @Component({
     selector: 'app-biblia',
@@ -8,19 +10,44 @@ import { ConnectBibliaService } from 'src/app/services/connect-biblia.service';
 })
 export class BibliaPage implements OnInit {
 
-    public dadosBiblia: { abbrev: string, name: string, chapters: []}[] = [];
+    //public dadosBiblia: { abbrev: string, name: string, chapters: string[][] }[] = [];
+    public dadosBiblia: {abbrev: string, name: string}[] = [];
+    public abreLivroBiblia: boolean = false;
 
-    constructor(private connectBibliaService: ConnectBibliaService) {
+    constructor(private connectBibliaService: ConnectBibliaService,
+        private loadingCtrl: LoadingController,
+        private modalCtrl: ModalController) {
     }
 
     async ngOnInit() {
+        const loading = await this.loadingCtrl.create({
+            message: 'Carregando...',
+            duration: 100000,
+        });
+
+        loading.present();
         await this.connectBibliaService.loadData()
             .then((data) => {
                 this.dadosBiblia = data;
+                setTimeout(async () => {
+                    await loading.dismiss();
+                }, 400);
             })
-            .catch((error) => {
+            .catch(async (error) => {
                 console.error('Erro ao carregar os dados:', error);
+                await loading.dismiss();
             });
+    }
+
+    async detalharLivros(livro: any) {
+        const modal = await this.modalCtrl.create({
+            component: LivrosPage,
+            cssClass: 'modalInterno',
+            componentProps: {
+                livro: livro
+            }
+        });
+        await modal.present();
     }
 
 }

@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Bíblia Sagrada
+      Bíblia
     </ion-title>
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
@@ -18,16 +18,16 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-list style="padding-top: 0px; padding-bottom: 0px;">
-    <ion-item *ngFor="let item of dadosBiblia" lines="full">
-      <ion-buttons slot="start" class="styleBtn">
-        <ion-button>
-          <ion-label style="color: white;">{{item.abbrev}}</ion-label>
-        </ion-button>
-      </ion-buttons>
-      <ion-label style="font-size: 20px;">
-        {{item.name}}
-      </ion-label>
-    </ion-item>
+  <ion-list *ngFor="let dados of dadosBiblia" style="padding-top: 0px; padding-bottom: 0px;">
+      <ion-item lines="full" (click)="detalharLivros(dados)">
+        <ion-buttons slot="start" class="styleBtn">
+          <ion-button>
+            <ion-label style="color: white;">{{dados.abbrev}}</ion-label>
+          </ion-button>
+        </ion-buttons>
+        <span>
+          <ion-label style="font-size: 20px;">{{dados.name}}</ion-label>
+        </span>
+      </ion-item>
   </ion-list>
 </ion-content>
