@@ -1,5 +1,8 @@
 {
   "name": "ADMissaoGoiania",
-  "integrations": {},
-  "type": "angular"
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "d6c54245"
 }
