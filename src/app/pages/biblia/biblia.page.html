@@ -19,15 +19,15 @@
 
 <ion-content [fullscreen]="true">
   <ion-list *ngFor="let dados of dadosBiblia" style="padding-top: 0px; padding-bottom: 0px;">
-      <ion-item lines="full" (click)="detalharLivros(dados)">
-        <ion-buttons slot="start" class="styleBtn">
-          <ion-button>
-            <ion-label style="color: white;">{{dados.abbrev}}</ion-label>
-          </ion-button>
-        </ion-buttons>
-        <span>
-          <ion-label style="font-size: 20px;">{{dados.name}}</ion-label>
-        </span>
-      </ion-item>
+    <ion-item lines="full" (click)="detalharLivros(dados)">
+      <ion-buttons slot="start" class="styleBtn">
+        <ion-button>
+          <ion-label style="color: white;">{{dados.abbrev_livro}}</ion-label>
+        </ion-button>
+      </ion-buttons>
+      <span>
+        <ion-label style="font-size: 20px;">{{dados.nome_livro}}</ion-label>
+      </span>
+    </ion-item>
   </ion-list>
 </ion-content>

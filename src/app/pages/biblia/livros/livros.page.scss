@@ -1,9 +1,18 @@
-.custom-text {
-  white-space: pre-wrap;
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: justify;
-  padding-right: 15px;
-  padding-left: 15px;
+.styleBtn {
+  border-radius: 10px !important;
+  border: 1.5px solid #2c2121;
+  width: 60px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ion-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  grid-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }

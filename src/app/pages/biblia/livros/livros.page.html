@@ -7,7 +7,7 @@
       </ion-button>
     </ion-buttons>
     <ion-title>
-      {{livro.name}}
+      {{livro.nome_livro}}
     </ion-title>
     <ion-buttons slot="end">
       <ion-button>
@@ -18,9 +18,11 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div style="font-size: 15px; padding-top: 10px; padding-bottom: 10px;" *ngFor="let li of livro.chapters">
-    <div class="custom-text">
-      <strong>{{li}}</strong>
-    </div>
-  </div>
+  <ion-list>
+      <ion-buttons slot="start" class="styleBtn" *ngFor="let capitulo of dadosLivro; let i = index;">
+        <ion-button (click)="detalharVersiculo(capitulo)">
+          <ion-label style="color: #9d3f48; font-weight: bold">{{i+1}}</ion-label>
+        </ion-button>
+      </ion-buttons>
+  </ion-list>
 </ion-content>

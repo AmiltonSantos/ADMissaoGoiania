@@ -8,9 +8,13 @@ export class ConnectBibliaService {
 
     constructor(private http: HttpClient) { }
 
-    loadData(): Promise<any> {
-        const url = 'assets/data/biblias/NTLH.json'; // Caminho relativo ao arquivo JSON
+    loadBibliaData(): Promise<any> {
+        const url = 'assets/data/biblias/info_biblia.json'; // Caminho relativo ao arquivo JSON
         return this.http.get(url).toPromise();
     }
 
+    loadLivroData(livro: any): Promise<any> {
+        const url = `assets/data/biblias/biblia_aa/${livro}.json`; // Caminho relativo ao arquivo JSON
+        return this.http.get(url).toPromise();
+    }
 }

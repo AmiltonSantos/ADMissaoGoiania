@@ -1,0 +1,596 @@
+﻿[
+	{
+		"id" : 1,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "GN",
+		"nome_livro" : "Gênesis",
+		"abbrev" : "GN",
+		"nome_reference" : "genesis"
+	},
+	{
+		"id" : 2,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "ÊX",
+		"nome_livro" : "Êxodo",
+		"abbrev" : "ÊX",
+		"nome_reference" : "exodo"
+	},
+	{
+		"id" : 3,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "LV",
+		"nome_livro" : "Levítico",
+		"abbrev" : "LV",
+		"nome_reference" : "levitico"
+	},
+	{
+		"id" : 4,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "NM",
+		"nome_livro" : "Números",
+		"abbrev" : "NM",
+		"nome_reference" : "numeros"
+	},
+	{
+		"id" : 5,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "DT",
+		"nome_livro" : "Deuteronômio",
+		"abbrev" : "DT",
+		"nome_reference" : "deuteronomio"
+	},
+	{
+		"id" : 6,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "JS",
+		"nome_livro" : "Josué",
+		"abbrev" : "JS",
+		"nome_reference" : "josue"
+	},
+	{
+		"id" : 7,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "JZ",
+		"nome_livro" : "Juízes",
+		"abbrev" : "JZ",
+		"nome_reference" : "juizes"
+	},
+	{
+		"id" : 8,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "RT",
+		"nome_livro" : "Rute",
+		"abbrev" : "RT",
+		"nome_reference" : "rute"
+	},
+	{
+		"id" : 9,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "1SM",
+		"nome_livro" : "1 Samuel",
+		"abbrev" : "1SM",
+		"nome_reference" : "1 samuel"
+	},
+	{
+		"id" : 10,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "2SM",
+		"nome_livro" : "2 Samuel",
+		"abbrev" : "2SM",
+		"nome_reference" : "2 samuel"
+	},
+	{
+		"id" : 11,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "1RS",
+		"nome_livro" : "1 Reis",
+		"abbrev" : "1RS",
+		"nome_reference" : "1 reis"
+	},
+	{
+		"id" : 12,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "2RS",
+		"nome_livro" : "2 Reis",
+		"abbrev" : "2RS",
+		"nome_reference" : "2 reis"
+	},
+	{
+		"id" : 13,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "1CR",
+		"nome_livro" : "1 Crônicas",
+		"abbrev" : "1CR",
+		"nome_reference" : "1 cronicas"
+	},
+	{
+		"id" : 14,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "2CR",
+		"nome_livro" : "2 Crônicas",
+		"abbrev" : "2CR",
+		"nome_reference" : "2 cronicas"
+	},
+	{
+		"id" : 15,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "ED",
+		"nome_livro" : "Esdras",
+		"abbrev" : "ED",
+		"nome_reference" : "esdras"
+	},
+	{
+		"id" : 16,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "NE",
+		"nome_livro" : "Neemias",
+		"abbrev" : "NE",
+		"nome_reference" : "neemias"
+	},
+	{
+		"id" : 17,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "ET",
+		"nome_livro" : "Ester",
+		"abbrev" : "ET",
+		"nome_reference" : "ester"
+	},
+	{
+		"id" : 18,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "JÓ",
+		"nome_livro" : "Jó",
+		"abbrev" : "JÓ",
+		"nome_reference" : "jo"
+	},
+	{
+		"id" : 19,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "SL",
+		"nome_livro" : "Salmos",
+		"abbrev" : "SL",
+		"nome_reference" : "salmos"
+	},
+	{
+		"id" : 20,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "PV",
+		"nome_livro" : "Provérbios",
+		"abbrev" : "PV",
+		"nome_reference" : "proverbios"
+	},
+	{
+		"id" : 21,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "EC",
+		"nome_livro" : "Eclesiastes",
+		"abbrev" : "EC",
+		"nome_reference" : "eclesiastes"
+	},
+	{
+		"id" : 22,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "CT",
+		"nome_livro" : "Cânticos",
+		"abbrev" : "CT",
+		"nome_reference" : "cantigos"
+	},
+	{
+		"id" : 23,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "IS",
+		"nome_livro" : "Isaías",
+		"abbrev" : "IS",
+		"nome_reference" : "isaias"
+	},
+	{
+		"id" : 24,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "JR",
+		"nome_livro" : "Jeremias",
+		"abbrev" : "JR",
+		"nome_reference" : "jeremias"
+	},
+	{
+		"id" : 25,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "LM",
+		"nome_livro" : "Lamentações",
+		"abbrev" : "LM",
+		"nome_reference" : "lamentacoes de jeremias"
+	},
+	{
+		"id" : 26,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "EZ",
+		"nome_livro" : "Ezequiel",
+		"abbrev" : "EZ",
+		"nome_reference" : "ezequiel"
+	},
+	{
+		"id" : 27,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "DN",
+		"nome_livro" : "Daniel",
+		"abbrev" : "DN",
+		"nome_reference" : "daniel"
+	},
+	{
+		"id" : 28,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "OS",
+		"nome_livro" : "Oséias",
+		"abbrev" : "OS",
+		"nome_reference" : "oseias"
+	},
+	{
+		"id" : 29,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "JL",
+		"nome_livro" : "Joel",
+		"abbrev" : "JL",
+		"nome_reference" : "joel"
+	},
+	{
+		"id" : 30,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "AM",
+		"nome_livro" : "Amós",
+		"abbrev" : "AM",
+		"nome_reference" : "amos"
+	},
+	{
+		"id" : 31,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "OB",
+		"nome_livro" : "Obadias",
+		"abbrev" : "OB",
+		"nome_reference" : "obadias"
+	},
+	{
+		"id" : 32,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "JN",
+		"nome_livro" : "Jonas",
+		"abbrev" : "JN",
+		"nome_reference" : "jonas"
+	},
+	{
+		"id" : 33,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "MQ",
+		"nome_livro" : "Miquéias",
+		"abbrev" : "MQ",
+		"nome_reference" : "miqueias"
+	},
+	{
+		"id" : 34,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "NA",
+		"nome_livro" : "Naum",
+		"abbrev" : "NA",
+		"nome_reference" : "naum"
+	},
+	{
+		"id" : 35,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "HC",
+		"nome_livro" : "Habacuque",
+		"abbrev" : "HC",
+		"nome_reference" : "habacuque"
+	},
+	{
+		"id" : 36,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "SF",
+		"nome_livro" : "Sofonias",
+		"abbrev" : "SF",
+		"nome_reference" : "sofonias"
+	},
+	{
+		"id" : 37,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "AG",
+		"nome_livro" : "Ageu",
+		"abbrev" : "AG",
+		"nome_reference" : "ageu"
+	},
+	{
+		"id" : 38,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "ZC",
+		"nome_livro" : "Zacarias",
+		"abbrev" : "ZC",
+		"nome_reference" : "zacarias"
+	},
+	{
+		"id" : 39,
+		"testament_id" : 1,
+		"testamento" : "Antigo Testamento",
+		"abbrev_livro" : "ML",
+		"nome_livro" : "Malaquias",
+		"abbrev" : "ML",
+		"nome_reference" : "malaquias"
+	},
+	{
+		"id" : 40,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "MT",
+		"nome_livro" : "Mateus",
+		"abbrev" : "MT",
+		"nome_reference" : "mateus"
+	},
+	{
+		"id" : 41,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "MC",
+		"nome_livro" : "Marcos",
+		"abbrev" : "MC",
+		"nome_reference" : "marcos"
+	},
+	{
+		"id" : 42,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "LC",
+		"nome_livro" : "Lucas",
+		"abbrev" : "LC",
+		"nome_reference" : "lucas"
+	},
+	{
+		"id" : 43,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "JO",
+		"nome_livro" : "João",
+		"abbrev" : "JO",
+		"nome_reference" : "joao"
+	},
+	{
+		"id" : 44,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "AT",
+		"nome_livro" : "Atos dos Apóstolos",
+		"abbrev" : "AT",
+		"nome_reference" : "atos"
+	},
+	{
+		"id" : 45,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "RM",
+		"nome_livro" : "Romanos",
+		"abbrev" : "RM",
+		"nome_reference" : "romanos"
+	},
+	{
+		"id" : 46,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "1CO",
+		"nome_livro" : "1 Coríntios",
+		"abbrev" : "1CO",
+		"nome_reference" : "1 corintios"
+	},
+	{
+		"id" : 47,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "2CO",
+		"nome_livro" : "2 Coríntios",
+		"abbrev" : "2CO",
+		"nome_reference" : "2 corintios"
+	},
+	{
+		"id" : 48,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "GL",
+		"nome_livro" : "Gálatas",
+		"abbrev" : "GL",
+		"nome_reference" : "galatas"
+	},
+	{
+		"id" : 49,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "EF",
+		"nome_livro" : "Efésios",
+		"abbrev" : "EF",
+		"nome_reference" : "efesios"
+	},
+	{
+		"id" : 50,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "FP",
+		"nome_livro" : "Filipenses",
+		"abbrev" : "FP",
+		"nome_reference" : "filipenses"
+	},
+	{
+		"id" : 51,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "CL",
+		"nome_livro" : "Colossenses",
+		"abbrev" : "CL",
+		"nome_reference" : "colossenses"
+	},
+	{
+		"id" : 52,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "1TS",
+		"nome_livro" : "1 Tessalonicenses",
+		"abbrev" : "1TS",
+		"nome_reference" : "1 tessalonicenses"
+	},
+	{
+		"id" : 53,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "2TS",
+		"nome_livro" : "2 Tessalonicenses",
+		"abbrev" : "2TS",
+		"nome_reference" : "2 tessalonicenses"
+	},
+	{
+		"id" : 54,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "1TM",
+		"nome_livro" : "1 Timóteo",
+		"abbrev" : "1TM",
+		"nome_reference" : "1 timoteo"
+	},
+	{
+		"id" : 55,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "2TM",
+		"nome_livro" : "2 Timóteo",
+		"abbrev" : "2TM",
+		"nome_reference" : "2 timoteo"
+	},
+	{
+		"id" : 56,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "TT",
+		"nome_livro" : "Tito",
+		"abbrev" : "TT",
+		"nome_reference" : "tito"
+	},
+	{
+		"id" : 57,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "FM",
+		"nome_livro" : "Filemom",
+		"abbrev" : "FM",
+		"nome_reference" : "filemom"
+	},
+	{
+		"id" : 58,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "HB",
+		"nome_livro" : "Hebreus",
+		"abbrev" : "HB",
+		"nome_reference" : "hebreus"
+	},
+	{
+		"id" : 59,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "TG",
+		"nome_livro" : "Tiago",
+		"abbrev" : "TG",
+		"nome_reference" : "tiago"
+	},
+	{
+		"id" : 60,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "1PE",
+		"nome_livro" : "1 Pedro",
+		"abbrev" : "1PE",
+		"nome_reference" : "1 pedro"
+	},
+	{
+		"id" : 61,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "2PE",
+		"nome_livro" : "2 Pedro",
+		"abbrev" : "2PE",
+		"nome_reference" : "2 pedro"
+	},
+	{
+		"id" : 62,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "1JO",
+		"nome_livro" : "1 João",
+		"abbrev" : "1JO",
+		"nome_reference" : "1 joao"
+	},
+	{
+		"id" : 63,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "2JO",
+		"nome_livro" : "2 João",
+		"abbrev" : "2JO",
+		"nome_reference" : "2 joao"
+	},
+	{
+		"id" : 64,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "3JO",
+		"nome_livro" : "3 João",
+		"abbrev" : "3JO",
+		"nome_reference" : "3 joao"
+	},
+	{
+		"id" : 65,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "JD",
+		"nome_livro" : "Judas",
+		"abbrev" : "JD",
+		"nome_reference" : "judas"
+	},
+	{
+		"id" : 66,
+		"testament_id" : 2,
+		"testamento" : "Novo Testamento",
+		"abbrev_livro" : "AP",
+		"nome_livro" : "Apocalipse",
+		"abbrev" : "AP",
+		"nome_reference" : "apocalipse"
+	}
+]

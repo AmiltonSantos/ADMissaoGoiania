@@ -10,8 +10,7 @@ import { LivrosPage } from './livros/livros.page';
 })
 export class BibliaPage implements OnInit {
 
-    //public dadosBiblia: { abbrev: string, name: string, chapters: string[][] }[] = [];
-    public dadosBiblia: {abbrev: string, name: string}[] = [];
+    public dadosBiblia: { abbrev_livro: string, nome_livro: string }[] = [];
     public abreLivroBiblia: boolean = false;
 
     constructor(private connectBibliaService: ConnectBibliaService,
@@ -27,7 +26,7 @@ export class BibliaPage implements OnInit {
         });
 
         loading.present();
-        await this.connectBibliaService.loadData()
+        await this.connectBibliaService.loadBibliaData()
             .then((data) => {
                 this.dadosBiblia = data;
                 setTimeout(async () => {
