@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { VersiculoPageRoutingModule } from './versiculo-routing.module';
+import { LeituraPageRoutingModule } from './leitura-routing.module';
 
-import { VersiculoPage } from './versiculo.page';
+import { LeituraPage } from './leitura.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    VersiculoPageRoutingModule
+    LeituraPageRoutingModule
   ],
-  declarations: [VersiculoPage]
+  declarations: [LeituraPage]
 })
-export class VersiculoPageModule {}
+export class LeituraPageModule {}

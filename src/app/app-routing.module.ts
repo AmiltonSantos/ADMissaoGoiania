@@ -24,18 +24,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/congregacoes/congregacoes.module').then( m => m.CongregacoesPageModule)
   },
   {
-    path: 'versiculo',
-    loadChildren: () => import('./pages/versiculo/versiculo.module').then( m => m.VersiculoPageModule)
-  },
-  {
-    path: 'estudos',
-    loadChildren: () => import('./pages/estudos/estudos.module').then( m => m.EstudosPageModule)
-  },
-  {
-    path: 'curso',
-    loadChildren: () => import('./pages/curso/curso.module').then( m => m.CursoPageModule)
-  },
-  {
     path: 'contribuicao',
     loadChildren: () => import('./pages/contribuicao/contribuicao.module').then( m => m.ContribuicaoPageModule)
   },
@@ -46,6 +34,26 @@ const routes: Routes = [
   {
     path: 'harpa',
     loadChildren: () => import('./pages/harpa/harpa.module').then( m => m.HarpaPageModule)
+  },
+  {
+    path: 'radio',
+    loadChildren: () => import('./pages/radio/radio.module').then( m => m.RadioPageModule)
+  },
+  {
+    path: 'umadem',
+    loadChildren: () => import('./pages/umadem/umadem.module').then( m => m.UmademPageModule)
+  },
+  {
+    path: 'semadmig',
+    loadChildren: () => import('./pages/semadmig/semadmig.module').then( m => m.SemadmigPageModule)
+  },
+  {
+    path: 'usademig',
+    loadChildren: () => import('./pages/usademig/usademig.module').then( m => m.UsademigPageModule)
+  },
+  {
+    path: 'leitura',
+    loadChildren: () => import('./pages/leitura/leitura.module').then( m => m.LeituraPageModule)
   },
 ];
 

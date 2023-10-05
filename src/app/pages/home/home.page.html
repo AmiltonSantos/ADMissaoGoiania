@@ -19,9 +19,9 @@
   </ion-row>
 
   <ion-row>
-    <ion-col (click)="touchNavParam('/versiculo')">
+    <ion-col (click)="touchNavParam('/devocional')">
       <ion-card class="ion-no-padding">
-        <ion-img src="assets/images/versiculo.png"></ion-img>
+        <ion-img src="assets/images/devocional.png"></ion-img>
       </ion-card>
     </ion-col>
     <ion-col (click)="touchNavParam('/noticia')">
@@ -32,27 +32,14 @@
   </ion-row>
 
   <ion-row>
-    <ion-col (click)="touchNavParam('/curso')">
+    <ion-col (click)="touchNavParam('/radio')">
       <ion-card class="ion-no-padding">
-        <ion-img src="assets/images/curso01.png"></ion-img>
+        <ion-img src="assets/images/radio.png"></ion-img>
       </ion-card>
     </ion-col>
-    <ion-col (click)="touchNavParam('/estudos')">
-      <ion-card class="ion-no-padding">
-        <ion-img src="assets/images/estudo02.png"></ion-img>
-      </ion-card>
-    </ion-col>
-  </ion-row>
-
-  <ion-row>
-    <ion-col>
+    <ion-col (click)="touchNavParam('/leitura')">
       <ion-card class="ion-no-padding">
         <ion-img src="assets/images/leitura.png"></ion-img>
-      </ion-card>
-    </ion-col>
-    <ion-col (click)="touchNavParam('/congregacoes')">
-      <ion-card class="ion-no-padding">
-        <ion-img src="assets/images/igrejas.png"></ion-img>
       </ion-card>
     </ion-col>
   </ion-row>
@@ -63,17 +50,30 @@
         <ion-img src="assets/images/contribuicao.png"></ion-img>
       </ion-card>
     </ion-col>
-    <ion-col>
+    <ion-col (click)="touchNavParam('/congregacoes')">
       <ion-card class="ion-no-padding">
-        <ion-img src="assets/images/missoes.png"></ion-img>
+        <ion-img src="assets/images/igrejas.png"></ion-img>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col (click)="touchNavParam('/umadem')">
+      <ion-card class="ion-no-padding">
+        <ion-img src="assets/images/umadem.png"></ion-img>
+      </ion-card>
+    </ion-col>
+    <ion-col (click)="touchNavParam('/semadmig')">
+      <ion-card class="ion-no-padding">
+        <ion-img src="assets/images/semadmig.png"></ion-img>
       </ion-card>
     </ion-col>
   </ion-row>
 
   <ion-row style="margin-bottom: 20px;">
-    <ion-col (click)="touchNavParam('/devocional')">
+    <ion-col (click)="touchNavParam('/usademig')">
       <ion-card class="ion-no-padding">
-        <ion-img src="assets/images/devocional.png"></ion-img>
+        <ion-img src="assets/images/usademig.png"></ion-img>
       </ion-card>
     </ion-col>
     <ion-col (click)="openExternal('https://admissaojardimamerica.com.br/')"> <!-- (click)="touchNavParam('/site')" -->
@@ -84,3 +84,10 @@
   </ion-row>
 
 </ion-content>
+<ion-footer style="font-size: 10px; text-align: center; color: #ffffff; background-color: #244381; opacity: 0.8;">
+  <ion-row>
+    <ion-col>
+      <ion-label>Versão 7.15.003 - amilton.dev</ion-label>
+    </ion-col>
+  </ion-row>
+</ion-footer>
