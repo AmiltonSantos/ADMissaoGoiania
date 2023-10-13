@@ -32,4 +32,13 @@
   --background:#ffffff;
   --max-width: 115px;
   transform: translateY(-15%);
+  text-align: center;
+}
+
+.toast-custom-error {
+  --color:#ffffff;;
+  --border-radius:8px;
+  --background:#9d3f48;
+  transform: translateY(-15%);
+  text-align: center;
 }

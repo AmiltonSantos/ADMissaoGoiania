@@ -13,7 +13,7 @@ export class ContribuicaoPage {
     constructor(private toastController: ToastController) { }
 
     copyToClipboardChavePix(msg: number) {
-        if(msg === 1) {
+        if (msg === 1) {
             navigator.clipboard.writeText(this.chavePixDizimo);
         } else {
             navigator.clipboard.writeText(this.chavePixOferta);
@@ -23,13 +23,13 @@ export class ContribuicaoPage {
 
     async presentToast(position: 'top' | 'bottom' | 'bottom') {
         const toast = await this.toastController.create({
-          message: 'Pix Copiado!',
-          duration: 1500,
-          position: position,
-          cssClass: 'toast-custom-pix',
+            message: 'Pix Copiado!',
+            duration: 1500,
+            position: position,
+            cssClass: 'toast-custom-pix',
         });
-    
+
         await toast.present();
-      }
+    }
 
 }

@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { LoadingController, ModalController } from '@ionic/angular';
+import { LoadingController, ModalController, ToastController } from '@ionic/angular';
 import { ConnectBibliaService } from 'src/app/services/connect-biblia.service';
 import { VersiculosPage } from './versiculos/versiculos.page';
 
@@ -16,6 +16,7 @@ export class LivrosPage implements OnInit {
 
     constructor(private modalCtrl: ModalController,
         private connectBibliaService: ConnectBibliaService,
+        private toastController: ToastController,
         private loadingCtrl: LoadingController) { }
 
     async ngOnInit() {
@@ -34,6 +35,7 @@ export class LivrosPage implements OnInit {
                 }, 400);
             })
             .catch(async (error) => {
+                this.presentToast('bottom');
                 console.error('Erro ao carregar os dados:', error);
                 await loading.dismiss();
             });
@@ -58,6 +60,17 @@ export class LivrosPage implements OnInit {
 
     async touchVoltarModal() {
         await this.modalCtrl.dismiss();
+    }
+
+    async presentToast(position: 'top' | 'bottom' | 'bottom') {
+        const toast = await this.toastController.create({
+            message: 'Erro na chamada da API!',
+            duration: 1500,
+            position: position,
+            cssClass: 'toast-custom-error',
+        });
+
+        await toast.present();
     }
 
 }

@@ -24,5 +24,6 @@
           <ion-label style="color: #9d3f48; font-weight: bold">{{i+1}}</ion-label>
         </ion-button>
       </ion-buttons>
-  </ion-list>
+    </ion-list>
+    <span *ngIf="dadosLivro.length === 0">Não foi possivel carregar as informações!</span>
 </ion-content>
