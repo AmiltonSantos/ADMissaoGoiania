@@ -6,18 +6,44 @@
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-buttons slot="end">
-      <ion-button>
-        <ion-icon slot="icon-only" name="share-social"></ion-icon>
-      </ion-button>
-    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div style="font-size: 21px;text-align: center;padding-top: 20px;">
-    <ion-label>
-      Página em construção
-    </ion-label>
-  </div>
+  <ion-card class="ion-no-padding">
+    <ion-card-header class="cardHeader" style="background-color: #ff6347 !important;">
+      <ion-label class="ion-text-uppercase contrubuicao">
+        <ion-icon name="wallet-outline"></ion-icon> Dízimos e ofertas
+      </ion-label>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item lines="none" style="padding-top: 10px;">
+        <span>
+          <h4><b>Chave Pix:</b></h4>
+          <p>00.184.519/0001-77</p>
+          <p>Igreja Evangelica Assembleia de Deus Ministerio Missao</p>
+        </span>
+        <ion-icon name="copy-outline" slot="end" (click)="copyToClipboardChavePix(1)"></ion-icon>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="ion-no-padding">
+    <ion-card-header class="cardHeader" style="background-color: #6830b1 !important;">
+      <ion-label class="ion-text-uppercase contrubuicao">
+        <ion-icon name="wallet-outline"></ion-icon> Oferta Missionária
+      </ion-label>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-img style="height: 25vh !important; width: auto !important;"
+        src="assets/images/ofertaMissionaria.png"></ion-img>
+      <ion-item lines="none">
+        <span>
+          <h4><b>Chave Pix:</b></h4>
+          <p>parceirosmissionarios@hotmail.com</p>
+        </span>
+        <ion-icon name="copy-outline" slot="end" (click)="copyToClipboardChavePix(2)"></ion-icon>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
